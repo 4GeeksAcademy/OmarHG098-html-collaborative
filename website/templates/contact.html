@@ -1,2 +1,53 @@
-<!-- your html code here -->
-<p>Hello, I'm contact.html</p>
+
+    <style>
+        .custom-bg-dark {
+            background-color: #f7f5f5;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        .custom-btn-submit {
+            background-color: #0e5ea4; 
+            border-color: #0e5ea4;
+        }
+
+        .custom-btn-submit:hover {
+            background-color: #0a437b; 
+            border-color: #0a437b; 
+        }
+
+        
+        .custom-container-sm {
+            max-width: 75%;  
+            margin: 0 auto;
+        }
+    </style>
+
+
+    <div class="p-5 mt-5 bg-white">
+        <h1>Contact</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla.</p>
+
+        
+        <div class="custom-bg-dark custom-container-sm">
+            <form>
+                <div class="form-group row">
+                    <label for="inputEmail" class="col-sm-2 col-form-label"><strong>Your E-mail</strong></label>
+                    <div class="col-sm-10">
+                        <input type="email" class="form-control" id="inputEmail" placeholder="Your email">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="inputMessage" class="col-sm-2 col-form-label"><strong>Your message</strong></label>
+                    <div class="col-sm-10">
+                        <textarea class="form-control" id="inputMessage" rows="5" placeholder="Please enter your message here..."></textarea>
+                    </div>
+                </div>
+                <div class="form-group row text-right">
+                    <div class="col-sm-10 offset-sm-2">
+                        <button type="submit" class="btn btn-primary custom-btn-submit">Submit</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
